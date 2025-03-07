@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'HeavyFalcon';
+    src: url('fonts/HeavyFalcon-Z3Lz.otf');
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+    width: 20%;
+}
+
+head {
+    background-color: aliceblue;
+}
+
+body {
+    background-image: url('images/pcb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;/**/
+    /*background-color: forestgreen;/**/
+    background-size: 100% 100%;
+    font-family: 'HeavyFalcon', sans-serif;
+}
+
+main {
+    /*background-image: url('images/falcon.png');/**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: aliceblue;/**/
+    max-width: 800px;
+    height:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 50px;
+    border-width: 50px;
+    border-color: aliceblue;
+}
+
