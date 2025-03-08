@@ -8,11 +8,15 @@
     margin-right: auto;
     text-align: center;
     background-color: aliceblue;
-    width: 20%;
 }
 
-head {
+header {
     background-color: aliceblue;
+    width: 60%;
+    min-width: 100px;
+    max-width: 1000px;
+    margin: auto;
+    border: 0;
 }
 
 body {
@@ -22,6 +26,8 @@ body {
     /*background-color: forestgreen;/**/
     background-size: 100% 100%;
     font-family: 'HeavyFalcon', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -30,13 +36,13 @@ main {
     background-attachment: fixed;
     background-position: center;
     background-color: aliceblue;/**/
-    max-width: 800px;
+    max-width: 1000px;
+    min-width: 100px;
+    width: 60%;
     height:1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    border: 50px;
-    border-width: 50px;
-    border-color: aliceblue;
+    border: 0px;
 }
 
